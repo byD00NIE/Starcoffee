@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    box-shadow: 3px 3px 3px black;
+    align-items: center;
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.logo-menu >img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 550px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu2 > li {
+    float: right;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.coffe {
+    background-image: url(img/capasite.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top center;
+    flex-direction: column;
+    margin: 50px;
+    margin-bottom: 1px ;
+}
+
+.block {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 70px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block > h3 {
+    text-align: center;
+}
+
+.block2 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block2 > div > img {
+    display: flex;
+    width: 100%;
+}
+
+.block2 > div > h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.block3 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.block3 > div > img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.block4 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block4 > div > img {
+    width: 100%;
+    display: flex;
+}
+
+.block4 > div >h2 {
+    font-size: 30px;
+}
+
+.block4 > div > p {
+    font-size: 15px;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.block5 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block5 > div > img {
+    
+    display: flex;
+    background-size: cover;
+    height: 472px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
